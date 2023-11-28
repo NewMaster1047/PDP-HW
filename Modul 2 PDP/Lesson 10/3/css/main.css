@@ -1,0 +1,129 @@
+form {
+    display: inline-block;
+    width: 350px;
+    position: relative;
+}
+.wrapper {
+    width: 420px;
+}
+.myInput {
+    height: 50px;
+    border-radius: 100px;
+    font-size: 14px;
+    color: #a1a1a1;
+    background-color: #e0e0e0;
+    border: #e0e0e0;
+    padding: 1rem;
+    position: relative;
+    border-radius: 100px;
+}
+.myinput_btn {
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    width: 40px;height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background: #e0e0e0;
+    border: #e0e0e0;
+    border-radius: 100px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+.myinput_btn:hover {
+    background: #bbbaba;
+}
+.mybtn {
+    background: #e0e0e0;
+    border-radius: 100px;
+    padding-right: 20px;
+}
+.container {
+    padding: 2rem;
+}
+.myBtn {
+    border: 5px solid #e0e0e0;
+    width: 50px;height: 50px;
+    background: #fff;
+    color: #000;
+    font-size: 20px;
+    display: inline-block;
+    margin: 0;
+    float: right;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100px;
+    transition: .3s all ease;
+    box-shadow: 0 0 4px #aaa;
+}
+.myBtn:hover {
+    color: #727272;
+}
+.hover-content {
+    padding: 1.5rem;
+    margin: .5rem 0 0 .5rem;
+    /* border: 1px solid #ccc; */
+    box-shadow: 0 -2px 4px #ccc;
+    border-radius: 4px;
+    position: relative;
+}
+.hover-content::before {
+    content: '';
+    position: absolute;
+    border-bottom: 20px solid #fff;
+    border-right: 18px solid transparent;
+    border-left: 18px solid transparent;
+    top: -11px;
+    right: 7px;
+}
+.hover-content-text {
+    color: #aaa;
+    margin: 0;padding: 0;
+    font-size: 14px;
+}
+.hover-content-menu {
+    padding: .5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+.hover-content form input {
+    display: none;
+}
+.hover-content form label {
+    margin: 4px 4px 4px 4px;
+    width: 14px;height: 14px;
+    border-radius: 2px;
+    border: 1px solid #e0e0e0;
+    padding: 2px;
+    position: relative;
+}
+.hover-content form input:checked + label {
+    border: 1px solid #FCB600;
+}
+.hover-content form input:checked + label span {
+    background: #FCB600;
+}
+.hover-content form label:hover span {
+    background: #e0e0e0;
+}
+.hover-content form label span {
+    border-radius: 1px;
+    width: 9px;height: 9px;
+    display: inline-block;
+    position: absolute;
+    top: 1.5px;
+    left: 1.7px;
+}
+.hover-content form p {
+    display: inline-block;
+    margin: 0;
+    font-size: 14px;
+    float: right;
+    width: 320px;
+}
+.filter-btn {
+    display: none;
+}

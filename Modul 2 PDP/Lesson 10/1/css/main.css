@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #f1f5ee;
+}
+
+.card-body {
+    color: #000;
+}
+
+.card {
+    width: 500px;
+    margin: 0px auto;
+}
+.card-header {
+    background: #1FBAB8;
+    color: #fff;
+}
+.wrapper {
+    position: relative;
+}
+.content-bg {
+    border-radius: 6px;
+    width: 90%;
+    height: 240px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.display-3 {
+    font-weight: 600;
+    margin: 50px 0 100px 0;
+}
+.content-box {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+.content {
+    border-radius: 6px;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+    padding: 100px 20px 20px 16px;
+}
+.content h3 {
+    font-weight: 700;
+}
+.top-img {
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid #f1f5ee;
+    border-radius: 100px;
+}
+.text-w {
+    font-weight: 600;
+    font-size: 18px;
+}
+.carousel-btn {
+    width: 65px;height: 65px;
+    display: inline-block;
+    position: absolute;
+    background: #EEF2F5;
+    font-size: 50px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100px;
+    color: #8b8b8b;
+}
+.myimg {
+    position: absolute;
+    z-index: 1;
+    margin: 0 1rem 0 1rem;
+}
+.myimg1 {
+    left: 0;
+    top: -16px;
+}
+.myimg2 {
+    right: 0;
+    bottom: -16px;
+}
+.carousel-btn i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.left-btn {
+    left: 0;
+}
+.right-btn {
+    right: -8%;
+}
+.carousel-control-next {
+    right: -8%;
+}
+.carousel-indicators li {
+    background-color: #ccc;
+}
+.carousel-item {
+    transition: .6s all ease;
+}
+.carousel-inner {
+    padding: 70px 0;
+}

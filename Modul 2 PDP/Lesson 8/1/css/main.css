@@ -1,0 +1,119 @@
+body {
+  background: white; }
+
+h3 {
+  margin: 20px 0 0 0; }
+
+.top_btn {
+  display: inline-block;
+  padding: 1rem 1rem;
+  background: #f1f1f1;
+  border-radius: 100px;
+  margin: 20px 0; }
+  .top_btn a {
+    color: #b4b4b4;
+    padding: 0.6rem 1.48rem;
+    text-decoration: none;
+    border-radius: 100px; }
+    .top_btn a:focus {
+      background: #FFF;
+      color: #000;
+      box-shadow: 0 2px 4px #909090; }
+
+.contents {
+  margin: 0;
+  padding: 0; }
+  .contents .content {
+    border-radius: 7px;
+    margin: 3px 0;
+    box-sizing: border-box;
+    display: inline-block;
+    background: #f1f1f1; }
+    .contents .content img {
+      border-radius: 7px;
+      width: 300px;
+      height: 180px; }
+    .contents .content .title {
+      padding: 10px; }
+      .contents .content .title p {
+        font-size: 14px;
+        color: #838383; }
+      .contents .content .title .UZS {
+        display: inline-block;
+        font-weight: 700;
+        color: #000; }
+        .contents .content .title .UZS span {
+          font-weight: normal; }
+      .contents .content .title .quantity {
+        border-radius: 3px;
+        margin-right: 10px;
+        float: right;
+        display: inline-block;
+        border: 1px solid #ccc; }
+        .contents .content .title .quantity p {
+          font-size: 16px;
+          font-weight: 700;
+          margin: 0;
+          display: inline-block; }
+        .contents .content .title .quantity a {
+          line-height: 10px;
+          display: inline-block;
+          padding: 6px 8px;
+          font-size: 20px;
+          color: gray;
+          text-decoration: none; }
+      .contents .content .title .butt {
+        border-radius: 3px;
+        margin-right: 10px;
+        float: right;
+        display: inline-block;
+        color: #fff;
+        background: #30ce08;
+        padding: 3px 6px;
+        font-size: 14px;
+        text-decoration: none; }
+
+.col-5 .right-content {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px; }
+  .col-5 .right-content .all {
+    background: #e6e6e6;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 170px;
+    border-radius: 10px; }
+    .col-5 .right-content .all p, .col-5 .right-content .all h2 {
+      margin: 0;
+      padding: 0;
+      display: block;
+      color: #aaaaaa; }
+    .col-5 .right-content .all h2 {
+      font-weight: 700;
+      color: #000; }
+      .col-5 .right-content .all h2 span {
+        font-weight: normal; }
+.col-5 .post label {
+  display: block;
+  color: #aaaaaa; }
+.col-5 .post input {
+  display: block;
+  padding: 0.75rem;
+  width: 100%;
+  border: 1px solid #aaaaaa;
+  border-radius: 6px; }
+.col-5 .post img {
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0; }
+.col-5 .post .butt {
+  border-radius: 3px;
+  display: inline-block;
+  color: #fff;
+  background: #30ce08;
+  padding: 6px 50px;
+  text-decoration: none;
+  margin-bottom: 20px; }
+
+/*# sourceMappingURL=main.css.map */

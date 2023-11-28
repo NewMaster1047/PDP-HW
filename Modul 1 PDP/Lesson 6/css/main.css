@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+.skills {
+    width: 100%;
+
+}
+.skill {
+    margin-bottom: 10px;
+    padding: 320px 20px 20px 20px;
+    text-align: right;
+    background-image: linear-gradient(0deg, rgba(75,105,145,1) 0%, rgba(0,0,0,0) 40%), url("../img/product-3.png");
+}
+.skill_2 {
+    background-image: linear-gradient(0deg, rgba(75,105,145,1) 0%, rgba(0,0,0,0) 40%), url("../img/product-4.png");
+}
+.skill_3 {
+    background-image: linear-gradient(0deg, rgba(75,105,145,1) 0%, rgba(0,0,0,0) 40%), url("../img/product-5.png");
+}
+

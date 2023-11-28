@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="wrapper">
+            <form action="#">
+                <input type="text" class="myInput form-control" placeholder="Qidirish">
+                <span class="myinput_btn"><i class="fa fa-search" aria-hidden="true"></i></span>
+            </form>
+
+            <span>
+                <input type="checkbox" name="checkbox" id="filter-btn" class="filter-btn">
+                <label for="filter-btn" data-toggle="collapse" data-target="#hover_content" class="myBtn"><i class="fa fa-filter" aria-hidden="true"></i></label>
+                
+                <div class="hover-content collapse" id="hover_content">
+                    <p class="hover-content-text">Kategoriya</p>
+
+                    <select name="form-control" class="hover-content-menu">
+                        <option value="Ichimliklar">Ichimliklar</option>
+                        <option value="Eguliklar">Eguliklar</option>
+                        <option value="Salatlar">Salatlar</option>
+                        <option value="and">. . .</option>
+                    </select>
+
+                    <form action="#">
+                        <input type="radio" name="checkbox" id="checkbox-one">
+                        <label for="checkbox-one"><span></span></label>
+                            <p>Narx bo'yicha (O'sish tartibida)</p><br>
+
+                        <input type="radio" name="checkbox" id="checkbox-two">
+                        <label for="checkbox-two"><span></span></label>
+                            <p>Narx bo'yicha (Kamayish tartibida)</p><br>
+                        
+                        <input type="radio" name="checkbox" id="checkbox-tree">
+                        <label for="checkbox-tree"><span></span></label>
+                            <p>Nom bo'yicha (A-Z)</p><br>
+
+                        <input type="radio" name="checkbox" id="checkbox-four">
+                        <label for="checkbox-four"><span></span></label>
+                            <p>Nom bo'yicha (Z-A)</p><br>
+                    </form>
+                </div>
+            </span>
+        </div>
+    </div>
+
+<script src="js/jQuery.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

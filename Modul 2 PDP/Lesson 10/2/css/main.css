@@ -1,0 +1,12 @@
+.card-body {
+    color: #000;
+}
+
+.card {
+    width: 500px;
+    margin: 0px auto;
+}
+.card-header {
+    background: #1FBAB8;
+    color: #fff;
+}

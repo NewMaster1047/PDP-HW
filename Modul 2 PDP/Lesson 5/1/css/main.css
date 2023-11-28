@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: sans-serif;
+  font-size: 18px; }
+
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+.wrapper {
+  width: 100%;
+  background: #e6e6e6;
+  padding: 160px 292px;
+  margin-bottom: 20px; }
+  .wrapper .cicle_btn {
+    padding: 30px 45px;
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 50%;
+    background: #009688;
+    line-height: 80px;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 10px 20px #6d6d6d; }
+  .wrapper .cicle_btn:nth-child(2) {
+    margin-left: 292px;
+    box-shadow: 0 20px 20px #6d6d6d; }
+
+.wrapper:nth-child(2) .buttons {
+  display: flex;
+  width: 100%; }
+  .wrapper:nth-child(2) .buttons .btn {
+    margin: 0 80px; }
+  .wrapper:nth-child(2) .buttons .btn1 {
+    width: 100%;
+    text-align: center; }
+    .wrapper:nth-child(2) .buttons .btn1 a {
+      margin: 80px 0;
+      display: block;
+      border-radius: 4px;
+      text-align: center;
+      padding: 14px 20px; }
+    .wrapper:nth-child(2) .buttons .btn1 a:nth-child(1) {
+      color: #7A7A7A; }
+    .wrapper:nth-child(2) .buttons .btn1 a:nth-child(2) {
+      color: #009688; }
+    .wrapper:nth-child(2) .buttons .btn1 a:nth-child(3) {
+      color: #009688; }
+    .wrapper:nth-child(2) .buttons .btn1 a:nth-child(4) {
+      color: #8f8f8f; }
+  .wrapper:nth-child(2) .buttons .btn2 {
+    width: 100%;
+    text-align: center; }
+    .wrapper:nth-child(2) .buttons .btn2 a {
+      margin: 80px 0;
+      display: block;
+      border-radius: 4px;
+      text-align: center;
+      padding: 14px 20px; }
+    .wrapper:nth-child(2) .buttons .btn2 a:nth-child(1) {
+      color: #7A7A7A; }
+    .wrapper:nth-child(2) .buttons .btn2 a:nth-child(2) {
+      background: #009688;
+      color: #fff; }
+    .wrapper:nth-child(2) .buttons .btn2 a:nth-child(3) {
+      background: #39A298;
+      color: #fff;
+      box-shadow: 0 10px 10px #8a8a8a; }
+    .wrapper:nth-child(2) .buttons .btn2 a:nth-child(4) {
+      color: #8f8f8f;
+      background: #C5C5C5; }
+
+/*# sourceMappingURL=main.css.map */

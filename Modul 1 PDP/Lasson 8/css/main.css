@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    color: rgb(94, 73, 151);
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.wrapper {
+    background: #d1d1d1;
+}
+.post {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+}
+.post h4 {
+    display: inline;
+}
+.post_icon {
+    background: blue;
+    padding: 3px 7px;
+    color: #fff;
+    border-radius: 100px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+}
+.post:last-child .post_icon {
+    background: blue;
+    padding: 3px;
+    color: #fff;
+    border-radius: 100px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+}
